@@ -1,0 +1,80 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="25dp"
+    tools:context=".EmployeeUpdate_Ng">
+
+    <EditText
+        android:id="@+id/EmployeeName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="EmployeeName"
+        android:animateLayoutChanges="true"
+        android:autofillHints="EmployeeName" />
+
+    <EditText
+        android:id="@+id/OrderID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="OrderID "
+        android:animateLayoutChanges="true"
+        android:autofillHints="OrderID"
+        android:layout_below="@id/EmployeeName" />
+
+    <EditText
+        android:id="@+id/Location"
+        android:layout_width="359dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/OrderID"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="4dp"
+        android:animateLayoutChanges="true"
+        android:autofillHints="OrderID"
+        android:hint="Location " />
+
+    <ImageButton
+        android:id="@+id/button_camera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/OrderID"
+        android:layout_alignBottom="@id/OrderID"
+        android:layout_marginLeft="-13dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="-3dp"
+        android:layout_toRightOf="@id/OrderID"
+        android:src="@android:drawable/ic_menu_camera" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button_camera"
+        android:layout_marginTop="48dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/dateButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="30dp"
+            android:text="Date"
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/status_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="40dp"
+            android:text="Status"
+            android:textColor="@color/black" />
+
+        <ImageButton
+            android:id="@+id/submit"
+            android:layout_width="61dp"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="10dp"
+            android:src="@drawable/imgupdate" />
+
+    </LinearLayout>
+
+</RelativeLayout>

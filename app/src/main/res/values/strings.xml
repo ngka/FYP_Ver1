@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">FYP_OCR_Order</string>
+    <string name="tfe_ic_device" translatable="false">Device:</string>
+    <string name="menu_logout">menu_logout</string>
+    <string name="menu_home">menu_home</string>
+    <string name="menu_back">menu_back</string>
+    <string-array name="tfe_ic_devices" translatable="false">
+        <item>CPU</item>
+        <!-- TODO: Add GPU  -->
+        <item>GPU</item>
+    </string-array>
+
+    <string-array name="user_types">
+        <item>Public User</item>
+        <item>Employee</item>
+    </string-array>
+</resources>

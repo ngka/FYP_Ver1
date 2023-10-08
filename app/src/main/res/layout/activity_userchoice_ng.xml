@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="8dp"
+    android:orientation="vertical"
+    tools:context=".UserChoice_Ng"
+    android:gravity="center">
+
+
+
+    <Button
+        android:id="@+id/user"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_margin="20dp"
+        android:background="@color/yellow"
+        android:text="Public User"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:textSize="32sp"/>
+    <Button
+        android:id="@+id/employee"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@color/yellow"
+        android:layout_margin="20dp"
+        android:text="Employee"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:textSize="32sp"/>
+
+</LinearLayout>

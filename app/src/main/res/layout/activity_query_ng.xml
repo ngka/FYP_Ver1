@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="25dp"
+    tools:context=".Query_Ng"
+    >
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="350dp"
+        android:layout_height="45dp"
+        android:text="Query history"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="30dp" />
+
+
+    <EditText
+        android:id="@+id/Username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Username"
+        android:textColorHint="#013220"
+        android:animateLayoutChanges="true"/>
+
+    <EditText
+        android:id="@+id/Email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="#013220"
+        android:hint="Email "
+        android:animateLayoutChanges="true"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="350dp"
+        android:layout_height="400dp"
+        android:text="Query result:"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        tools:layout_editor_absoluteX="1dp" />
+
+    <ImageButton
+        android:id="@+id/submit"
+        android:layout_width="87dp"
+        android:layout_height="82dp"
+        android:layout_gravity="right"
+        android:background="@drawable/imgupdate"
+        android:text="Update php"
+        />
+
+
+
+</LinearLayout>

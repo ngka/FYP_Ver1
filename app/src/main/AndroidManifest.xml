@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools">
+    <uses-permission android:name="android.permission.USE_BIOMETRIC" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+    <application android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:usesCleartextTraffic="true"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.FYP_OCR_Order"
+        tools:targetApi="31">
+        <activity
+            android:name=".loadpageActivity_Ng"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+            <meta-data
+                android:name="com.google.android.geo.API_KEY"
+                android:value="AIzaSyAusNsLourOTs7IagqrcyQNeV119alRVk8"/>
+
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+            <meta-data
+                android:name="com.google.mlkit.vision.DEPENDENCIES"
+                android:value="ocr" />
+            <meta-data
+                android:name=" androidx.camera.camera2.Camera2Config"
+                android:value="androidx.camera.integration.camera2.Camera2Config" />
+        </activity>
+        <activity android:name=".Register_Ng"
+            android:exported="true"
+            />
+        <activity android:name=".Employe_Register_Ng"
+            android:exported="true"
+            />
+        <activity android:name=".CNN_Ng"
+            android:exported="true"
+            />
+        <activity android:name=".OCR_Ng"
+            android:exported="true"
+            />
+        <activity android:name=".PublicuserPage_Ng"
+            android:exported="true"
+            />
+        <activity android:name=".EmployeePage_Ng"
+            android:exported="true"
+            />
+        <activity android:name=".Feedback_Ng"
+            android:exported="true"
+            />
+        <activity android:name=".Query_Ng"
+            android:exported="true"
+            />
+        <activity android:name=".ResetPW_Ng"
+            android:exported="true"
+            />
+        <activity android:name=".EmployeeUpdate_Ng"
+            android:exported="true"
+            />
+        <activity android:name=".RegisterActivity"
+            android:exported="true"
+            />
+        <activity android:name=".User_SendProblem_Ng"
+            android:exported="true"
+            />
+        <activity android:name=".Employee_Query_Ng"
+            android:exported="true"
+            />
+        <activity android:name=".Employee_Urgent_Ng2"
+            android:exported="true"
+            />
+        <activity android:name=".UserChoice_Ng"
+            android:exported="true"
+            />
+        <activity
+            android:name=".Login_Ng"
+            android:exported="true"/>
+        <activity
+            android:name=".Employee_Login_Ng"
+            android:exported="true"/>
+        <activity
+            android:name=".SerchLocation_Ng"
+            android:exported="true"/>
+        <activity
+            android:name=".gptActivity"
+            android:exported="true"/>
+
+
+    </application>
+
+</manifest>

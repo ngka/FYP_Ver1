@@ -1,0 +1,6 @@
+<resources>
+    <string-array name="status_array">
+        <item>open</item>
+        <item>close</item>
+    </string-array>
+</resources>
