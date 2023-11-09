@@ -56,9 +56,6 @@
         <activity android:name=".OCR_Ng"
             android:exported="true"
             />
-        <activity android:name=".PublicuserPage_Ng"
-            android:exported="true"
-            />
         <activity android:name=".EmployeePage_Ng"
             android:exported="true"
             />
@@ -101,6 +98,10 @@
         <activity
             android:name=".gptActivity"
             android:exported="true"/>
+        <activity
+            android:name=".UserPage_Chan"
+            android:exported="true"/>
+
 
 
     </application>

@@ -46,7 +46,7 @@ public class Feedback_Ng extends AppCompatActivity {
                             Toast.makeText(Feedback_Ng.this, "FAIL", Toast.LENGTH_SHORT).show();
                         }
                         else Toast.makeText(Feedback_Ng.this, "Data added", Toast.LENGTH_SHORT).show();
-                        Intent intent = new Intent(Feedback_Ng.this, PublicuserPage_Ng.class);
+                        Intent intent = new Intent(Feedback_Ng.this, UserPage_Chan.class);
                         startActivity(intent);
                         finish();
                     },

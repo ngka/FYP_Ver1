@@ -83,7 +83,7 @@ public class OCR_Ng extends AppCompatActivity {
         btnToCNN.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(OCR_Ng.this, PublicuserPage_Ng.class);
+                Intent intent = new Intent(OCR_Ng.this, UserPage_Chan.class); //Correct: UserPage_Chan, 10/11/2023????
                 startActivity(intent);
             }
         });
