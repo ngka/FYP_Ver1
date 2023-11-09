@@ -21,7 +21,7 @@ public class UserChoice_Ng extends AppCompatActivity {
         user.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(UserChoice_Ng.this, Login_Ng.class);
+                Intent intent = new Intent(UserChoice_Ng.this, UserPage_Chan.class);
                 startActivity(intent);
             }
         });
