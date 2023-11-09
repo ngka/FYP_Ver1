@@ -50,5 +50,4 @@ public class UserPage_Chan extends AppCompatActivity {
 
 
     }
-
 }
