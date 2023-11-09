@@ -51,7 +51,7 @@ dependencies {
     implementation platform('com.google.firebase:firebase-bom:32.1.0')
     implementation 'com.google.android.gms:play-services-auth:20.5.0'
     implementation 'androidx.camera:camera-view:1.1.0-beta02'
-    implementation 'com.google.firebase:firebase-ml-vision:24.0.0'
+    //implementation 'com.google.firebase:firebase-ml-vision:24.0.0'
     implementation 'org.tensorflow:tensorflow-lite-support:0.1.0'
     implementation 'org.tensorflow:tensorflow-lite-metadata:0.1.0'
     testImplementation 'junit:junit:4.13.2'
@@ -85,5 +85,29 @@ dependencies {
     implementation 'com.squareup.okhttp3:okhttp:4.10.0'
     implementation 'com.google.code.gson:gson:2.9.0'
     implementation 'com.google.android.material:material:1.4.0'
+
+
+
+    //Chan 10/11/2023
+    implementation 'androidx.appcompat:appcompat:1.4.1'
+    implementation 'com.google.android.material:material:1.5.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.3'
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.3'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
+
+    //Firebase
+    //Import the Firebase BoM
+    implementation platform('com.google.firebase:firebase-bom:31.0.2')
+    //Use Firebase Android BoM to control library versioning
+    //Add the dependency for the Firebase SDK for Google Analytics
+    implementation 'com.google.firebase:firebase-analytics'
+    implementation 'com.google.firebase:firebase-auth:21.1.0'
+    //Add the dependency for Firebase Authentication
+    implementation 'com.firebaseui:firebase-ui-auth:7.2.0'
+    //Firebase database
+    implementation 'com.google.firebase:firebase-database'
+    //loading
+    implementation "com.github.kongzue.DialogX:DialogX:0.0.48.beta14"
 
 }
