@@ -21,7 +21,7 @@ public class UserChoice_Ng extends AppCompatActivity {
         user.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(UserChoice_Ng.this, Feedback_Ng.class); //correct#10/11/2023
+                Intent intent = new Intent(UserChoice_Ng.this, UserPage_Chan.class); //correct#10/11/2023
                 startActivity(intent);
             }
         });
